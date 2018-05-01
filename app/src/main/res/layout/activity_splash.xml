@@ -4,14 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
+    android:background="@drawable/gradient_background"
     android:fitsSystemWindows="false"
     tools:context="com.pawsitinc.pawsit.SplashActivity">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/image_logo_splash"
         android:layout_width="200dp"
         android:layout_height="200dp"
+        android:contentDescription="@string/content_desc_app_logo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"

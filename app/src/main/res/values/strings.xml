@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">PawsIt</string>
+    <string name="button_login">Login</string>
+    <string name="create_account">Create an account</string>
+    <string name="content_desc_app_logo" >This is the logo of the app.</string>
+    <string name="hint_email">Email Address</string>
+    <string name="hint_password">Password</string>
 </resources>
